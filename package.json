@@ -1,0 +1,24 @@
+{
+  "name": "angular-circle-progress",
+  "version": "1.0.0",
+  "description": "An Angular directive for creating responsive circular progress indicators.",
+  "main": "angular-progress-arc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgarrigan/ng-circular-progress.git"
+  },
+  "keywords": [
+    "angular",
+    "progress",
+    "directive"
+  ],
+  "author": "Mark Garrigan <mark@markgarrigan.com> (http://markgarrigan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgarrigan/ng-circular-progress/issues"
+  },
+  "homepage": "https://github.com/markgarrigan/ng-circular-progress#readme"
+}
