@@ -1,7 +1,7 @@
 {
   "name": "ng-circular-progress",
   "description": "An Angular directive for creating responsive circular progress indicators.",
-  "main": "angular-progress-arc.js",
+  "main": "ng-circular-progress.js",
   "authors": [
     "Mark Garrigan <mark@markgarrigan.com> (http://markgarrigan.com)"
   ],
