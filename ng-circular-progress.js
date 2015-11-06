@@ -2,9 +2,9 @@
 
   'use strict';
 
-  var app = angular.module('angular-progress-arc', []);
+  var app = angular.module('ng-circular-progress', []);
 
-  app.provider('progressArcDefaults', function () {
+  app.provider('circularProgressDefaults', function () {
 
     var defaults = {
       strokeWidth: 10,
@@ -29,7 +29,7 @@
     };
   });
 
-  app.directive('progressArc', ['progressArcDefaults', function (progressArcDefaults) {
+  app.directive('circularProgress', ['circularProgressDefaults', function (circularProgressDefaults) {
     return {
       restrict: 'E',
       transclude: true,
@@ -50,7 +50,7 @@
         element.css({
           "display": "block"
         });
-        progressArcDefaults(attr);
+        circularProgressDefaults(attr);
 
         return function (scope, element, attr) {
           var updateRadius = function () {
